@@ -360,6 +360,7 @@ enum spellNumT {
      SKILL_ADVANCED_BERSERKING,
      SKILL_BLOODLUST,
      SKILL_WHIRLWIND,
+     SKILL_RALLY,
      // end of warrior
 
      // start of mage
