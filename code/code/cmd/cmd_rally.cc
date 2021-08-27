@@ -3,7 +3,7 @@
 #include "combat.h"
 #include "obj_base_weapon.h"
 
-int TBeing::doRally(const char *argument)
+int TBeing::doRally()
 {
   TBeing *caster = this, *tmp_victim = nullptr;
   TThing *t = nullptr;

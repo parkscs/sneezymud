@@ -288,10 +288,10 @@ enum spellNumT {
      SPELL_STORMY_SKIES,
      SPELL_TREE_WALK,
      SPELL_SHAPESHIFT,
-  SPELL_EARTHMAW,
-  SPELL_CREEPING_DOOM,
-  SPELL_FERAL_WRATH,
-  SPELL_SKY_SPIRIT,
+     SPELL_EARTHMAW,
+     SPELL_CREEPING_DOOM,
+     SPELL_FERAL_WRATH,
+     SPELL_SKY_SPIRIT,
      // end of ranger
 
      // start of deikhan
@@ -361,6 +361,7 @@ enum spellNumT {
      SKILL_BLOODLUST,
      SKILL_WHIRLWIND,
      SKILL_RALLY,
+     SKILL_FORTIFY,
      SKILL_FOCUS_ATTACK,
      // end of warrior
 
@@ -595,6 +596,7 @@ enum spellNumT {
      SKILL_INEVITABILITY,
 
      // end of generic
+     
 
      // keep this as the last of the true skills
      MAX_SKILL,
@@ -708,6 +710,10 @@ enum spellNumT {
      AFFECT_GUARDIANS_LIGHT,
      AFFECT_PREENED,
      AFFECT_WET,
+
+     // Used to provide the short protection buff for fortify skill
+     AFFECT_FORTIFY,
+
 
      LAST_ODDBALL_AFFECT,
 // DO NOT MODIFY THIS, AFFECTS SIZE OF CHARFILE
